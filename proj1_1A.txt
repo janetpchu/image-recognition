@@ -1,0 +1,22 @@
+Partner 1 name: Shreyas Srinivasan
+Partner 1 login: cs61c-pp
+Partner 2 name: Pei-Yuan Chu
+Partner 2 login: cs61c-cb
+
+CS61C Spring 2014 Project 1 Task A Writeup
+
+1. For each of the test image provided in advanced_tests/, which images are not recognized correctly?
+
+Sans_serif_5, serif_5, serif_8 weren't recognized correctly. 
+
+
+2. For each test image listed in the previous question, What is the difference in "digit distances" between the recognized digit and the digit it is supposed to be (e.g. if a digit 3 is recognized as 8, and 3 has a "digit distance" of 10 while 8 has a "digit distance" of 20, then difference in distances is 20 - 10 = 10).
+
+Serif_8: Digit recognized as 2. 2 has "digit distance" of 20280286. 8 has a "digit distance" of 26396682. Digit difference is 6116396.
+
+Serif 5: Digit recognized as 1. 1 has "digit distance" of 20119602. 5 has a "digit distance" of 29336101. Digit difference is 9216499.
+
+Sans_serif 5: Digit recognized as 6. 6 has "digit distance" of 12939975. 5 has a "digit distance" of 21909957. Digit difference is 8969982.
+
+3. Give a one to two sentence explanation on why you think the images mentioned above are recognized incorrectly.
+We think the images weren't recognized correctly because the template images and the incorreclty-matched test images had different fonts so the pixels couldn't match up.
